@@ -8,6 +8,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/clientes") // Ruta base para Cliente
+@CrossOrigin(origins = "*") 
 public class ClienteController {
 
     private final ClienteService clienteService;

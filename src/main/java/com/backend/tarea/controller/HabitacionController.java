@@ -8,6 +8,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/habitaciones") // Ruta base para Habitacion
+@CrossOrigin(origins = "*") 
 public class HabitacionController {
 
     private final HabitacionService habitacionService;
